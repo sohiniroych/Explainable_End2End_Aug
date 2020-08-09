@@ -5,14 +5,14 @@ Google drive for weekly materials: https://drive.google.com/drive/u/2/folders/1p
 
 ## Pre-requisite Python Packages
 Video Explaning coding environment: https://www.youtube.com/watch?v=d7ktNAVHo5E&t=453s
--tensorflow>=1.6<2.0
--keras>2.0
--opencv-python
--numpy
--pydot
--graphviz
--matplotlib 
--pillow
+* tensorflow>=1.6<2.0
+* keras>2.0
+* opencv-python
+* numpy
+* pydot
+* graphviz
+* matplotlib 
+* pillow
 
 ## Steps
 
