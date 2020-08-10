@@ -1,7 +1,7 @@
 #==========================================================
 #
 #  This prepare the hdf5 datasets of the DRIVE database
-#
+#Reference: https://github.com/orobix/retina-unet
 #============================================================
 
 import os
