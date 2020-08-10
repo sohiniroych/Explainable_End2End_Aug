@@ -1,6 +1,7 @@
 ###################################################
 #
 #   Script to pre-process the original imgs
+References: https://github.com/orobix/retina-unet
 #
 ##################################################
 
@@ -9,7 +10,7 @@ import numpy as np
 from PIL import Image
 import cv2
 
-from help_functions import *
+from help_funs import *
 
 
 #My pre processing (use for both training and testing!)
