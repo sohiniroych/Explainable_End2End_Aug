@@ -53,17 +53,21 @@ These parameters need to be optimized for best joint parameter selection. Grid s
 1.  Batch size 32
 1. Epochs: 50
 1.  U-net depth:3
+
 To see the model complexity (number of parameters), use the command:
 model.summary() [Line 187 u_net_with_patches_train.py]
+
 ![summary](imgs/BYORI_3.png)
+
 To print shape of any intermediate U-net layer: print( <layername>._keras_shape)
-###Results
-Method| F1_score|Accuracy
+	
+### Results
+Method | F1_score| Accuracy
 ------------ | -------------
-M1 [2], 4-layer U-net (30 epochs)| 0.75|0.9557
-M2 [1], 3-layer U-net (110 epochs)|0.80|0.96
-Proposed, 3 layer U-net (50 epochs)|0.791|0.96
-####References
+M1 [2], 4-layer U-net (30 epochs) | 0.75 | 0.9557
+M2 [1], 3-layer U-net (110 epochs) | 0.80| 0.96
+Proposed, 3 layer U-net (50 epochs) | 0.791| 0.96
+#### References
 [1]Orobix. "Retina blood vessel segmentation with a convolution neural network (U-net)" ][Online] https://github.com/orobix/retina-unet
 [2]Zhixhao. "Implementation of deep learning framework -- Unet, using Keras" [Online] https://github.com/zhixuhao/unet
 
