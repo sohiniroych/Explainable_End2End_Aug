@@ -5,6 +5,8 @@
 #   - Load the images and extract the patches
 #   - Define the neural network
 #   - define the training
+Reference
+https://github.com/orobix/retina-unet
 #
 ##################################################
 
