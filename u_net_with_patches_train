@@ -28,7 +28,7 @@ from keras.optimizers import SGD
 
 import sys
 sys.path.insert(0, './lib/')
-from help_functions import *
+from help_funs import *
 
 #function to obtain data for training/testing (validation)
 from extract_patches_mod import get_data_training
