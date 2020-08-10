@@ -15,6 +15,16 @@ Video Explaning coding environment: https://www.youtube.com/watch?v=d7ktNAVHo5E&
 * matplotlib 
 * pillow
 
-## Steps
+## Proposed System Diagram
+![System Diagram](imgs/BYORI_1.png)
+This code base improves the explainability and generalizability of the image-tiling data augementation strategy in [1] in the following two ways:
+1. The end-to-end data augmentation method in [1] generates 190,000 random tiled sub-images from a set of 20 images. The proposed method is sensitive to the random number gennerator and can over or under-represent certain regions of the image. Generating non-overlapping tiles (in this code base) reduces such imbalanced image representations and ensures generalizability across data sets.
+1. Method in [1] requires significant compute power to train 3-4 u-net layers for 100 epochs. The proposed method significantly reduces compute since comparable segmentation accuracy is achieved by the proposed system in 50 epochs.
+Other contributions of the proposed code base are:
+1. Hyper-parameters selected for method [2] to zoom into retinal regions.
+1. Batch normalization and dropout added to implementations of [1] and [2] for quicker convergence.
+1. U-net model for depth 3 and 4 generalized across method [1] and [2]. 
+1. Hyperparamaterization and Ablation Study performed.
+
 
 
