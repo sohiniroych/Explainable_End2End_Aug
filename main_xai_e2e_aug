@@ -15,7 +15,7 @@ from U_net_predict_mod import *
 #Step 1: Image augmentation (zoom/pan using Keras)
 data_aug_keras()
 #Step 2: Data preparation, N=total number of training images generated after keras augmentation in previous step
-prep_data(N)
+prep_data(N=480)
 #Step 3: Run u-net #Modify unet/gnet in line number 186 in file u_net_with_patches_train.py
 run_non_olap_pathes()
 #Step 4:test patches
